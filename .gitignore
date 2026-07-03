@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Scraped data files (generated output)
+*.xlsx
+*.csv
+*.xls
+
+# Chrome profile (Selenium browser data - large, machine-specific)
+data_scrapping/chrome_profile/
+chrome_profile/
+
+# Debug output
+facebook_debug_pages/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Node
+node_modules/
+package-lock.json
+
+# Logs
+*.log
