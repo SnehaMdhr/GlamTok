@@ -1,0 +1,376 @@
+{
+  "generated_from": "machine_learning/compute_dashboard_analytics.py",
+  "meta": {
+    "real_posts": 5331,
+    "businesses": 13,
+    "date_min": "2024-01-04",
+    "date_max": "2026-07-05",
+    "eng_max": 0.086
+  },
+  "monthly": {
+    "labels": [
+      "2024-01",
+      "2024-02",
+      "2024-03",
+      "2024-04",
+      "2024-05",
+      "2024-06",
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07"
+    ],
+    "values": [
+      7,
+      21,
+      20,
+      48,
+      25,
+      20,
+      10,
+      8,
+      21,
+      9,
+      31,
+      34,
+      39,
+      32,
+      38,
+      91,
+      120,
+      106,
+      227,
+      210,
+      247,
+      168,
+      271,
+      357,
+      299,
+      279,
+      305,
+      571,
+      781,
+      792,
+      144
+    ]
+  },
+  "hourly_likes": [
+    932.7,
+    904.0,
+    773.7,
+    712.0,
+    460.0,
+    461.2,
+    407.1,
+    415.4,
+    447.5,
+    396.3,
+    402.6,
+    545.2,
+    497.9,
+    538.1,
+    547.8,
+    664.2,
+    636.1,
+    714.8,
+    329.1,
+    1189.5,
+    0.0,
+    0.0,
+    0.0,
+    873.0
+  ],
+  "biz": {
+    "labels": [
+      "Business10",
+      "Business3",
+      "Business11",
+      "Business1",
+      "Business5",
+      "Business6",
+      "Business2",
+      "Business8",
+      "Business12",
+      "Business13",
+      "Business9",
+      "Business4",
+      "Business7"
+    ],
+    "scores": [
+      0.05672,
+      0.05043,
+      0.037,
+      0.03616,
+      0.03547,
+      0.03278,
+      0.03097,
+      0.03014,
+      0.02597,
+      0.02584,
+      0.0242,
+      0.02379,
+      0.02365
+    ]
+  },
+  "hashtags": {
+    "labels": [
+      "1-3",
+      "4-7",
+      "8-12",
+      "13-20",
+      "20+"
+    ],
+    "scores": [
+      0.03215,
+      0.03421,
+      0.02573,
+      0.02598,
+      0.02677
+    ]
+  },
+  "caption": {
+    "labels": [
+      "<50",
+      "50-150",
+      "150-300",
+      ">300"
+    ],
+    "scores": [
+      0.03213,
+      0.03804,
+      0.02853,
+      0.03015
+    ]
+  },
+  "duration": {
+    "labels": [
+      "<15s",
+      "15-30s",
+      "30-60s",
+      ">60s"
+    ],
+    "scores": [
+      0.03215,
+      0.03451,
+      0.03152,
+      0.03198
+    ]
+  },
+  "festival": {
+    "regular": 0.03287,
+    "festival": 0.03243
+  },
+  "weekend": {
+    "weekday": 0.0326,
+    "weekend": 0.03337
+  },
+  "diagnostic": {
+    "follower_corr": 0.177,
+    "volume_corr": -0.143,
+    "biz_bubble": [
+      {
+        "name": "Business10",
+        "followers": 1518,
+        "eng": 0.05672,
+        "posts": 175
+      },
+      {
+        "name": "Business3",
+        "followers": 124700,
+        "eng": 0.05043,
+        "posts": 512
+      },
+      {
+        "name": "Business11",
+        "followers": 161800,
+        "eng": 0.037,
+        "posts": 525
+      },
+      {
+        "name": "Business1",
+        "followers": 39000,
+        "eng": 0.03616,
+        "posts": 392
+      },
+      {
+        "name": "Business5",
+        "followers": 20600,
+        "eng": 0.03547,
+        "posts": 374
+      },
+      {
+        "name": "Business6",
+        "followers": 131300,
+        "eng": 0.03278,
+        "posts": 555
+      },
+      {
+        "name": "Business2",
+        "followers": 11300,
+        "eng": 0.03097,
+        "posts": 561
+      },
+      {
+        "name": "Business8",
+        "followers": 25700,
+        "eng": 0.03014,
+        "posts": 196
+      },
+      {
+        "name": "Business12",
+        "followers": 21200,
+        "eng": 0.02597,
+        "posts": 545
+      },
+      {
+        "name": "Business13",
+        "followers": 32100,
+        "eng": 0.02584,
+        "posts": 498
+      },
+      {
+        "name": "Business9",
+        "followers": 4440,
+        "eng": 0.0242,
+        "posts": 237
+      },
+      {
+        "name": "Business4",
+        "followers": 53800,
+        "eng": 0.02379,
+        "posts": 199
+      },
+      {
+        "name": "Business7",
+        "followers": 66600,
+        "eng": 0.02365,
+        "posts": 562
+      }
+    ],
+    "cap_hashtag": {
+      "labels": [
+        "<50",
+        "50-150",
+        "150-300",
+        ">300"
+      ],
+      "hashtags": [
+        0.79,
+        3.83,
+        5.32,
+        9.27
+      ],
+      "eng": [
+        0.03213,
+        0.03804,
+        0.02853,
+        0.03015
+      ]
+    }
+  },
+  "features": {
+    "labels": [
+      "followers_log",
+      "caption_length",
+      "hashtag_count",
+      "video_duration_sec",
+      "is_festival",
+      "hour_sin",
+      "hour_cos",
+      "is_lunch_hour",
+      "is_evening",
+      "is_weekend",
+      "dow_sin",
+      "dow_cos"
+    ],
+    "importance": [
+      0.55178,
+      0.09261,
+      0.08656,
+      0.05431,
+      0.04481,
+      0.03965,
+      0.0334,
+      0.0288,
+      0.02306,
+      0.01608,
+      0.01572,
+      0.01321
+    ],
+    "importance_pct": [
+      55.20000076293945,
+      9.300000190734863,
+      8.699999809265137,
+      5.400000095367432,
+      4.5,
+      4.0,
+      3.299999952316284,
+      2.9000000953674316,
+      2.299999952316284,
+      1.600000023841858,
+      1.600000023841858,
+      1.2999999523162842
+    ],
+    "categories": [
+      "Account size",
+      "Content type",
+      "Content type",
+      "Content type",
+      "Nepal calendar",
+      "Cyclical time",
+      "Cyclical time",
+      "Nepal calendar",
+      "Nepal calendar",
+      "Nepal calendar",
+      "Cyclical time",
+      "Cyclical time"
+    ]
+  },
+  "model_metrics": {
+    "RandomForest": {
+      "r2": -0.099,
+      "rmse": 0.01465,
+      "mae": 0.01065
+    },
+    "XGBoost": {
+      "r2": 0.05,
+      "rmse": 0.01362,
+      "mae": 0.00939
+    }
+  },
+  "classification": {
+    "Logistic Regression": {
+      "accuracy": 0.5966,
+      "roc_auc": 0.5744,
+      "f1": 0.691
+    },
+    "XGBoost Classifier": {
+      "accuracy": 0.6671,
+      "roc_auc": 0.6505,
+      "f1": 0.7515
+    }
+  },
+  "best_hour": 10,
+  "best_day": 6
+}

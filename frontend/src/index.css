@@ -1,0 +1,214 @@
+/* ─────────────────────────────────────────────────────────────
+   GlamTok - design tokens & base styles (soft rose editorial)
+   Light is the default; a `.dark` class on <html> switches tokens.
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  /* surfaces */
+  --bg:            #FFF9F6;
+  --surface:       #FFFFFF;
+  --surface-alt:   #FAF3F0;
+  --surface-deep:  #F3EBE6;
+
+  /* borders */
+  --border:        #EBE0DA;
+  --border-strong: #D8C7BF;
+
+  /* text (warm taupe scale) */
+  --text:          #5C4B43;
+  --text-strong:   #45372E;
+  --text-muted:    #A18E84;
+  --text-faint:    #B3A096;
+
+  /* brand + semantics - rose primary, deep-rose secondary */
+  --accent:         #FF7EA5;
+  --accent-strong:  #B33E5D;
+  --accent-soft:    #FFDBE4;
+  --primary:        #FF7EA5;
+  --primary-strong: #E5678F;
+  --primary-soft:   #FFDBE4;
+  --purple:         #B33E5D;
+  --purple-strong:  #96324E;
+  --purple-soft:    #FCE4EA;
+  --success:        #3AA876;
+  --success-strong: #237A55;
+  --success-soft:   #E2F4EB;
+  --danger:         #E5484D;
+  --danger-strong:  #C23B40;
+  --danger-soft:    #FDEAEA;
+  --warning:        #D98A2B;
+  --warning-strong: #A96A18;
+  --warning-bg:     #FBF1E0;
+  --warning-border:#F0DFC0;
+
+  /* derived tints (so dark mode can re-map them) */
+  --sidebar-bg:     #FCF7F5;
+  --accent-border:  #F5B7C9;
+  --accent-surface: #FFF5F8;
+  --purple-border:  #F0C4CF;
+  --success-border: #BFE6D0;
+  --danger-border:  #F6C8C9;
+  --neutral-accent: #E0CCC6;
+  --bar-muted-a:    #F2E7E2;
+  --bar-muted-b:    #DDCAC3;
+  --fi-light:       #F5E1E6;
+
+  /* chart tokens */
+  --chart-grid:     rgba(92, 75, 67, 0.08);
+  --chart-axis:     #B3A096;
+  --chart-axisline: #EBE0DA;
+  --chart-muted:    #A18E84;
+  --chart-surface:  #FFFFFF;
+
+  /* misc */
+  --selection-bg:   #FFC3D3;
+  --selection-fg:   #4C2030;
+  --focus-ring:     #B33E5D;
+  --scroll-thumb:   #E8D5D0;
+  --scroll-thumb-hover: #C8B5AE;
+
+  /* brand (light sidebar: charcoal title, gray subtitle) */
+  --brand-text:    #171A21;
+  --brand-subtext: #8A8F98;
+
+  /* brand mark (logo tile) - soft rose tile, deep rose glyph */
+  --brand-mark-bg:   #FFDBE4;
+  --brand-mark-fg:   #B33E5D;
+  --brand-mark-ring: #F5B7C9;
+
+  /* elevation (very subtle) */
+  --shadow-sm: 0 2px 10px 0px rgb(0 0 0 / 0.03);
+  --shadow:    0 2px 10px 0px rgb(0 0 0 / 0.03), 0 1px 2px -1px rgb(0 0 0 / 0.03);
+  --shadow-lg: 0 2px 10px 0px rgb(0 0 0 / 0.03), 0 4px 6px -1px rgb(0 0 0 / 0.03);
+
+  /* shape */
+  --radius-sm: 6px;
+  --radius:    10px;
+  --radius-lg: 12px;
+
+  /* type */
+  --font:      "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+}
+
+.dark {
+  /* surfaces */
+  --bg:            #171310;
+  --surface:       #221C18;
+  --surface-alt:   #2B231E;
+  --surface-deep:  #352B25;
+
+  /* borders */
+  --border:        #3B312A;
+  --border-strong: #4D4138;
+
+  /* text (warm light scale) */
+  --text:          #D9CFC7;
+  --text-strong:   #F2ECE6;
+  --text-muted:    #A99A90;
+  --text-faint:    #7E7268;
+
+  /* brand + semantics - rose stays luminous on dark */
+  --accent:         #FF7EA5;
+  --accent-strong:  #FF9DB8;
+  --accent-soft:    #3A232B;
+  --primary:        #FF7EA5;
+  --primary-strong: #FF9DB8;
+  --primary-soft:   #3A232B;
+  --purple:         #D98BA6;
+  --purple-strong:  #E5A3BA;
+  --purple-soft:    #3B2630;
+  --success:        #4CC38D;
+  --success-strong: #6FD6A9;
+  --success-soft:   #1E332A;
+  --danger:         #F26A6E;
+  --danger-strong:  #F58A8E;
+  --danger-soft:    #3B2224;
+  --warning:        #E0A040;
+  --warning-strong: #EBB562;
+  --warning-bg:     #3B2E1A;
+  --warning-border:#57421F;
+
+  /* derived tints */
+  --sidebar-bg:     #1D1613;
+  --accent-border:  #5A3442;
+  --accent-surface: #2E2027;
+  --purple-border:  #4D3340;
+  --success-border: #2E4A3B;
+  --danger-border:  #523032;
+  --neutral-accent: #4D4138;
+  --bar-muted-a:    #332A24;
+  --bar-muted-b:    #4D4138;
+  --fi-light:       #4A2B37;
+
+  /* chart tokens */
+  --chart-grid:     rgba(255, 255, 255, 0.07);
+  --chart-axis:     #8F8378;
+  --chart-axisline: #3B312A;
+  --chart-muted:    #A99A90;
+  --chart-surface:  #221C18;
+
+  /* misc */
+  --selection-bg:   #6E3445;
+  --selection-fg:   #FFE3EC;
+  --focus-ring:     #FF9DB8;
+  --scroll-thumb:   #4A3B33;
+  --scroll-thumb-hover: #5C4B40;
+
+  /* brand (dark sidebar: white title, gray subtitle) */
+  --brand-text:    #FFFFFF;
+  --brand-subtext: #A8A8A8;
+
+  /* brand mark (logo tile) - dark rose tile, luminous rose glyph */
+  --brand-mark-bg:   #3A232B;
+  --brand-mark-fg:   #FF9DB8;
+  --brand-mark-ring: #5A3442;
+
+  /* elevation - stronger on dark */
+  --shadow-sm: 0 2px 10px 0px rgb(0 0 0 / 0.25);
+  --shadow:    0 2px 10px 0px rgb(0 0 0 / 0.25), 0 1px 2px -1px rgb(0 0 0 / 0.25);
+  --shadow-lg: 0 2px 10px 0px rgb(0 0 0 / 0.25), 0 4px 6px -1px rgb(0 0 0 / 0.25);
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-fg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* slim warm scrollbars */
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-thumb:hover { background: var(--scroll-thumb-hover); background-clip: content-box; border: 2px solid transparent; }
